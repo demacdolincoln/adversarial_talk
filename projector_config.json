@@ -1,0 +1,37 @@
+
+{
+  "embeddings": [
+    {
+      "tensorName": "original_data",
+      "tensorShape": [
+        500,
+        784
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/demacdolincoln/adversarial_talk/master/tensors_original.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/demacdolincoln/adversarial_talk/master/metadata.tsv",
+      "sprite": {
+        "imagePath": "https://raw.githubusercontent.com/demacdolincoln/adversarial_talk/master/sprite.png",
+        "singleImageDim": [
+          28,
+          28
+        ]
+      }
+    },
+    {
+      "tensorName": "transformed_data",
+      "tensorShape": [
+        500,
+        72
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/demacdolincoln/adversarial_talk/master/tensors_transf.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/demacdolincoln/adversarial_talk/master/metadata.tsv",
+      "sprite": {
+        "imagePath": "https://raw.githubusercontent.com/demacdolincoln/adversarial_talk/master/sprite.png",
+        "singleImageDim": [
+          28,
+          28
+        ]
+      }
+    }
+  ]
+}
